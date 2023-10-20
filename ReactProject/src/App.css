@@ -24,7 +24,7 @@ a{
 .gap-10{
     gap: 10px;
 }
-.gap-50{
+.gap-15{
     gap: 15px;
 }
 /* Header part strat */
@@ -36,11 +36,31 @@ a{
 .header-upper{
     background-color: var(--color-131921);
 }
+.header-bottom{
+    background-color: var(--color-3b4149);
+}
 .header-upper .input-group-text{
     background-color: var(--color-febd69);
 }
 .header-upper.header-upper-links img{
     height: 35px;
     width: 30px;
+}
+.header-bottom .menu-links a,
+.header-bottom .dropdown button{
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3;
+    text-transform: uppercase;
+}
+.header-bottom .dropdown-menu{
+    background-color: var(--color-131921);
+    width: 100%; 
+}
+.header-bottom .dropdown-item:hover{
+    background-color: transparent;
+    color: var(--color-febd69) !important
 }
 /* Header part end */

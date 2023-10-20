@@ -90,14 +90,43 @@ export default function HeaderCom() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="menu-button d-flex align-items-center">
-                <div></div>
+              <div className="menu-button d-flex align-items-center gap-15">
+                <div>
+                  <div className="dropdown">
+                    <button
+                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 d-flex gap-15 align-items-center "
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="images/menu.svg" alt="" />
+                      <span> Shop Categories </span>
+                    </button>
+                    <ul className="dropdown-menu text-white">
+                      <li>
+                        <Link className="dropdown-item text-white" to="">
+                          Action
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to="">
+                          Another action
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to="">
+                          Something else here
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/">Our Store</NavLink>
                     <NavLink to="/">Blog</NavLink>
-                    <NavLink to='/contact'>Contact</NavLink>
+                    <NavLink to="/contact">Contact</NavLink>
                   </div>
                 </div>
               </div>
