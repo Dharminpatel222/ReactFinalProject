@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import {BsLinkedin,BgGithub,BsYoutube,BsInstagram} from "react-icons"
+import {BsLinkedin,BsGithub,BsYoutube,BsInstagram} from "react-icons/bs"
 
 export default function Footer() {
   return (
@@ -44,20 +44,20 @@ export default function Footer() {
                 </address>
                 <a
                   href="tel:+91 6463882921"
-                  className="mt-4 d-block mb-3 text-white"
+                  className="mt-3 d-block mb-3 text-white"
                 >
                   +91 6463882921
                 </a>
                 <a
                   href="mailto:navdeepdahiya753@gmail.com"
-                  className="mt-4 d-block mb-3 text-white"
+                  className="mt-2  d-block mb-3 text-white"
                 >
                   navdeepdahiya753@gmail.com
                 </a>
-                <div className="social_icons d-flex align-items-center gap-10">
+                <div className="social_icons d-flex align-items-center gap-30">
                   <BsInstagram className="text-white fs-5" />
                   <BsLinkedin className="text-white fs-5" />
-                  <BgGithub className="text-white fs-5" />
+                  <BsGithub className="text-white fs-5" />
                   <BsYoutube className="text-white fs-5" />
                 </div>
               </div>
