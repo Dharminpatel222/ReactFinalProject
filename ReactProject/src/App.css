@@ -64,3 +64,18 @@ a{
     color: var(--color-febd69) !important
 }
 /* Header part end */
+
+/* footer part start */
+
+footer{
+    background-color: var(--color-232f3e) !important;
+}
+footer:not(:first-child){
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+footer .input-group-text{
+    background-color: var(--color-232f3e);
+    color: white;
+    padding: 8px 17px ;
+}
+/* footer part end */
