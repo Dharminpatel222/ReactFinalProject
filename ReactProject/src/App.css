@@ -279,11 +279,40 @@ border-radius: 10px;
 }
 
 
-
-
 /*special-product part end*/
 
+/*famous card start*/
 
+.famous-card .famous-content{
+  top: 10%;
+  left: 10%;
+}
+.famous-card img{
+  border-radius: 10px;
+}
+.famous-content h5{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 7px;
+}
+.famous-content h6{
+   font-size: 25px;
+    line-height: 38px;
+    font-weight: 500;
+       color: black;
+
+   
+}
+.famous-content p{
+    font-size: 15px;
+    line-height: 38px;
+    font-weight: 500;
+      color: black;
+
+}
+/*famous card end*/
 
 
 /* homepage part end */

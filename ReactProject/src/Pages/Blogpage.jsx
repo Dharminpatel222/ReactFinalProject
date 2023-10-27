@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Aboutpage() {
+export default function Blogpage() {
   return (
     <div>Aboutpage</div>
   )
