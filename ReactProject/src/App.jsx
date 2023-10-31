@@ -12,6 +12,10 @@ import Forgatepassword from './Pages/Forgatepassword';
 import SignUp from './Pages/SignUp';
 import Resetpassword from './Pages/Resetpassword';
 import SingleBlog from './Pages/SingleBlog';
+import Privacypolicy from './Pages/Privacypolicy';
+import RefundPolicy from './Pages/RefundPolicy';
+import ShippingPolicy from './Pages/ShippingPolicy';
+import TermsandCondition from './Pages/TermsandCondition';
 
 function App() {
 
@@ -31,6 +35,10 @@ function App() {
             <Route path="Foragatpassword" element={<Forgatepassword />} />
             <Route path="Signup" element={<SignUp />} />
             <Route path="resetpassword" element={<Resetpassword />} />
+            <Route path="privacypolicy" element={<Privacypolicy />} />
+            <Route path="refundpolicy" element={<RefundPolicy />} />
+            <Route path="shippingpolicy" element={<ShippingPolicy />} />
+            <Route path="termsandcondition" element={<TermsandCondition />} />
           </Route>
         </Routes>
       </BrowserRouter>

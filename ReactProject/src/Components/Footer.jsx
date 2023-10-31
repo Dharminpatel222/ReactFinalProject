@@ -65,9 +65,18 @@ export default function Footer() {
             <div className="col-3">
               <h4 className="text-white mb-4">Information</h4>
               <div className="footer-links d-flex flex-column ">
-                <Link className="text-white py-2 mb-1">Refund Policy</Link>
-                <Link className="text-white py-2 mb-1">Shipping Policy</Link>
-                <Link className="text-white py-2 mb-1">Terms Of Services</Link>
+                <Link to="/privacypolicy" className="text-white py-2 mb-1">
+                  Privacy Policy
+                </Link>
+                <Link to="/refundpolicy" className="text-white py-2 mb-1">
+                  Refund Policy
+                </Link>
+                <Link to="/shippingpolicy" className="text-white py-2 mb-1">
+                  Shipping Policy
+                </Link>
+                <Link to="/termsandcondition" className="text-white py-2 mb-1">
+                  Terms & Services
+                </Link>
                 <Link className="text-white py-2 mb-1">Blogs</Link>
               </div>
             </div>
