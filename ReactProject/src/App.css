@@ -470,5 +470,69 @@ border-radius: 10px;
 /*Compare product end */
 
 
+/*login-card start */
 
+.auth-card{
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.auth-card h3{
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+.auth-card .form-control{
+  height: 50px;
+  background-color: var(--color-f5f5fy);
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.auth-card a{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+}
+.auth-card .signup{
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+.auth-card .forgate{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/*foragatepassword start */
+.auth-card p{
+  color: var(--color-777777);
+  font-size: 13px;
+}
+
+/*foragatepassword end */
+
+/*login-card end */
+
+/*Singleblog start */
+.single-blog-card a{
+  font-size: 19px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
+
+.single-blog-card h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+
+.single-blog-card p{
+  color: var(--color-777777);
+  font-size: 14px;
+}
+
+/*Singleblog end */
 

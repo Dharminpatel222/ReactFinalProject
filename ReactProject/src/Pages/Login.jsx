@@ -8,9 +8,9 @@ export default function Login() {
       <BreadCumb title=" Account" />
       <div className="login-wrapper py-5 home-wrapper-2">
         <div className="col-12">
-          <div className="login-card">
-            <h3>Login</h3>
-            <form action="">
+          <div className="auth-card">
+            <h3 className="text-center mb-3">Login</h3>
+            <form action="" className="d-flex flex-column gap-30">
               <div>
                 <input
                   type="email"
@@ -28,10 +28,10 @@ export default function Login() {
                 />
               </div>
               <div>
-                <Link to="/Foragatpassword" >Forgate Password</Link>
+                <Link to="/Foragatpassword" className="mb-3 forgate " >Forgate Password?</Link>
                 <div className="d-flex justify-content-center gap-15 align-items-center">
-                    <button className="button border-0">Login</button>
-                    <Link className="button">SignUp</Link>
+                    <button className="button border-0" type="submit">Login</button>
+                    <Link className="button signup" to="/signup">Sign Up</Link>
                 </div>
               </div>
             </form>
