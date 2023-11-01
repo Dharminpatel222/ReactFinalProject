@@ -20,9 +20,9 @@ export default function Productcard(props) {
       >
         <Link to="/product/:id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
-            <Link>
+            <button className="border-0 bg-transparent">
               <img src={wish} alt="" />
-            </Link>
+            </button>
           </div>
           <div className="product-img">
             <img src={laptop} className="img-fluid" alt="" />
@@ -42,15 +42,15 @@ export default function Productcard(props) {
           </div>
           <div className="action-bar position-absolute gap-15">
             <div className="d-flex flex-column">
-              <Link>
+              <button className="border-0 bg-transparent">
                 <img src={prodcompare} alt="" />
-              </Link>
-              <Link>
+              </button>
+              <button className="border-0 bg-transparent">
                 <img src={view} alt="" />
-              </Link>
-              <Link>
+              </button>
+              <button className="border-0 bg-transparent">
                 <img src={addcart} alt="" />
-              </Link>
+              </button>
             </div>
           </div>
         </Link>
@@ -142,7 +142,7 @@ export default function Productcard(props) {
         <Link to="/product/:id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
-              <img src={wish}alt="" />
+              <img src={wish} alt="" />
             </Link>
           </div>
           <div className="product-img">
@@ -164,7 +164,7 @@ export default function Productcard(props) {
           <div className="action-bar position-absolute gap-15">
             <div className="d-flex flex-column">
               <Link>
-                <img src={prodcompare}alt="" />
+                <img src={prodcompare} alt="" />
               </Link>
               <Link>
                 <img src={view} alt="" />

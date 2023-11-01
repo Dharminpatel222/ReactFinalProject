@@ -569,7 +569,7 @@ border-radius: 10px;
 
 /*Cartpage start*/
 
-.cart-header{
+.cart-header, .cart-data{
   border-bottom: 1px solid #eaeaea;
 }
 .cart-header h4{
@@ -578,6 +578,7 @@ border-radius: 10px;
 }
 .cart-col-1{
   width: 40%;
+  color: var(--color-777777);
 }
 .cart-col-2{
   width: 10%;
@@ -587,6 +588,10 @@ border-radius: 10px;
 }
 .cart-col-4{
   width: 15%;
+}
+.cart-data h5.price{
+  font-size: 14px;
+  color: var(--color-1c1c1b);
 }
 /*Cartpage  end*/
 
