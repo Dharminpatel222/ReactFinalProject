@@ -1,6 +1,14 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
+import wish from "../images/wish.svg"
+import laptop from "../images/laptop.jpg";
+import prodcompare from "../images/prodcompare.svg";
+import view from "../images/view.svg";
+import addcart from "../images/add-cart.svg";
+import headphone from "../images/headphone.jpg"
+import tv from "../images/tv.jpg";
+
 
 export default function Productcard(props) {
   const { grid } = props;
@@ -10,14 +18,14 @@ export default function Productcard(props) {
       <div
         className={`${location.pathname == "/store" ? `gr-${grid}` : "col-3"}`}
       >
-        <Link className="product-card position-relative">
+        <Link to="/product/:id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
-              <img src="images/wish.svg" alt="" />
+              <img src={wish} alt="" />
             </Link>
           </div>
           <div className="product-img">
-            <img src="images/laptop.jpg" className="img-fluid" alt="" />
+            <img src={laptop} className="img-fluid" alt="" />
           </div>
           <div className="product-details">
             <h6 className="brand">Havels</h6>
@@ -35,13 +43,13 @@ export default function Productcard(props) {
           <div className="action-bar position-absolute gap-15">
             <div className="d-flex flex-column">
               <Link>
-                <img src="images/prodcompare.svg" alt="" />
+                <img src={prodcompare} alt="" />
               </Link>
               <Link>
-                <img src="images/view.svg" alt="" />
+                <img src={view} alt="" />
               </Link>
               <Link>
-                <img src="images/add-cart.svg" alt="" />
+                <img src={addcart} alt="" />
               </Link>
             </div>
           </div>
@@ -50,14 +58,14 @@ export default function Productcard(props) {
       <div
         className={`${location.pathname == "/store" ? `gr-${grid}` : "col-3"}`}
       >
-        <Link className="product-card position-relative">
+        <Link to="/product/:id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
-              <img src="images/wish.svg" alt="" />
+              <img src={wish} alt="" />
             </Link>
           </div>
           <div className="product-img">
-            <img src="images/headphone.jpg" className="img-fluid" alt="" />
+            <img src={headphone} className="img-fluid" alt="" />
           </div>
           <div className="product-details">
             <h6 className="brand">Havels</h6>
@@ -75,13 +83,13 @@ export default function Productcard(props) {
           <div className="action-bar position-absolute gap-15">
             <div className="d-flex flex-column">
               <Link>
-                <img src="images/prodcompare.svg" alt="" />
+                <img src={prodcompare} alt="" />
               </Link>
               <Link>
-                <img src="images/view.svg" alt="" />
+                <img src={view} alt="" />
               </Link>
               <Link>
-                <img src="images/add-cart.svg" alt="" />
+                <img src={addcart} alt="" />
               </Link>
             </div>
           </div>
@@ -91,14 +99,14 @@ export default function Productcard(props) {
       <div
         className={`${location.pathname == "/store" ? `gr-${grid}` : "col-3"}`}
       >
-        <Link className="product-card position-relative">
+        <Link to="/product/:id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
-              <img src="images/wish.svg" alt="" />
+              <img src={wish} alt="" />
             </Link>
           </div>
           <div className="product-img">
-            <img src="images/tv.jpg" className="img-fluid" alt="" />
+            <img src={tv} className="img-fluid" alt="" />
           </div>
           <div className="product-details">
             <h6 className="brand">Havels</h6>
@@ -116,13 +124,13 @@ export default function Productcard(props) {
           <div className="action-bar position-absolute gap-15">
             <div className="d-flex flex-column">
               <Link>
-                <img src="images/prodcompare.svg" alt="" />
+                <img src={prodcompare} alt="" />
               </Link>
               <Link>
-                <img src="images/view.svg" alt="" />
+                <img src={view} alt="" />
               </Link>
               <Link>
-                <img src="images/add-cart.svg" alt="" />
+                <img src={addcart} alt="" />
               </Link>
             </div>
           </div>
@@ -131,14 +139,14 @@ export default function Productcard(props) {
       <div
         className={`${location.pathname == "/store" ? `gr-${grid}` : "col-3"}`}
       >
-        <Link className="product-card position-relative">
+        <Link to="/product/:id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
-              <img src="images/wish.svg" alt="" />
+              <img src={wish}alt="" />
             </Link>
           </div>
           <div className="product-img">
-            <img src="images/laptop.jpg" className="img-fluid" alt="" />
+            <img src={laptop} className="img-fluid" alt="" />
           </div>
           <div className="product-details">
             <h6 className="brand">Havels</h6>
@@ -156,13 +164,13 @@ export default function Productcard(props) {
           <div className="action-bar position-absolute gap-15">
             <div className="d-flex flex-column">
               <Link>
-                <img src="images/prodcompare.svg" alt="" />
+                <img src={prodcompare}alt="" />
               </Link>
               <Link>
-                <img src="images/view.svg" alt="" />
+                <img src={view} alt="" />
               </Link>
               <Link>
-                <img src="images/add-cart.svg" alt="" />
+                <img src={addcart} alt="" />
               </Link>
             </div>
           </div>

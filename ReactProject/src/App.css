@@ -542,3 +542,54 @@ border-radius: 10px;
   border-radius: 10px;
 }
 
+/*Singleproduct start*/
+
+.review-head{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.review-inner-wrapper{
+  background-color: white;
+  padding: 20px;
+}
+.review-head h4{
+  font-size: 18px;
+  color: var(--color-1c1c1b);
+}
+.review-head p, .review-head a{
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.review-form h4{
+  font-size: 14px;
+  color: var(--color-777777);
+
+}
+
+/*Singleproduct end*/
+
+/*Cartpage start*/
+
+.cart-header{
+  border-bottom: 1px solid #eaeaea;
+}
+.cart-header h4{
+  font-size: 18px;
+  color: var(--color-777777);
+}
+.cart-col-1{
+  width: 40%;
+}
+.cart-col-2{
+  width: 10%;
+}
+.cart-col-3{
+  width: 15%;
+}
+.cart-col-4{
+  width: 15%;
+}
+/*Cartpage  end*/
+
+
+
+
